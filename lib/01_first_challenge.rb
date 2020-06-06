@@ -30,7 +30,7 @@ def first_challenge
           :attitude => "hot-headed"
         }
       ]
-      }
+    },
      :capulets => {
        :patriarch {
          :attributes {
