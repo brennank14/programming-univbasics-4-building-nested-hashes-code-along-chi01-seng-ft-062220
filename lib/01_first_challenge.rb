@@ -2,26 +2,19 @@ def first_challenge
    epic_tragedy = {
      :montagues => {
       :patriarch => {
-        :attributes => {
-          :name => "Lord Montague",
-          :age => "53"
-        }
-      },
+        :name => "Lord Montague",
+        :age => "53"
+        },
       :matriarch => {
-        :attributes => {
-          :name => "Lady Montague",
-          :age => "54"
-        }
-      },
+        :name => "Lady Montague",
+        :age => "54"
+        },
       :hero => {
-        :attributes => {
-          :name => "Romeo",
-          :age => "15",
-          :status => "alive"
-        }
-      },
-      :hero_friends => [
-        {
+        :name => "Romeo",
+        :age => "15",
+        :status => "alive"
+        },
+      :hero_friends => [{
            :name => "Benvolio",
            :age => "17",
            :attitude => "worried"
@@ -36,24 +29,18 @@ def first_challenge
     {
      :capulets => {
        :patriarch {
-         :attributes {
-           :name => "Lord Capulet",
-           :age => "50"
-         }
-       },
+         :name => "Lord Capulet",
+         :age => "50"    
+        },
        :matriarch {
-         :attributes {
-           :name => "Lady Capulet",
-           :age => "51"
-         }
-       },
+         :name => "Lady Capulet",
+         :age => "51"
+         },
        :heroine {
-         :attributes {
-           :name => "Juliet",
-           :age => "15",
-           :status => "alive"
-         }
-       },
+         :name => "Juliet",
+         :age => "15",
+         :status => "alive"
+        },
        :heroine_friends [{
          :name => "Steven",
          :age => "30",
