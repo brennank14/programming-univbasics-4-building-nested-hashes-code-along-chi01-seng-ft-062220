@@ -4,16 +4,15 @@ def first_challenge
       :patriarch => {
         :name => "Lord Montague",
         :age => "53"
-        },
+      },
       :matriarch => {
         :name => "Lady Montague",
         :age => "54"
-        },
+      },
       :hero => {
         :name => "Romeo",
         :age => "15",
-        :status => "alive"
-        },
+      },
       :hero_friends => [{
            :name => "Benvolio",
            :age => "17",
@@ -26,17 +25,16 @@ def first_challenge
         }
       ]
     },
-    {
      :capulets => {
-       :patriarch {
+       :patriarch => {
          :name => "Lord Capulet",
          :age => "50"
-        },
-       :matriarch {
+       },
+       :matriarch => {
          :name => "Lady Capulet",
          :age => "51"
-         },
-       :heroine {
+        },
+       :heroine => {
          :name => "Juliet",
          :age => "15",
          :status => "alive"
